@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="titulo"></h1>
+    
+    <div class="tablero">
+        <div class="cuadro cuadro1"><label id="1" class="marca cuadro1">x</label></div>
+        <div class="cuadro cuadro2"><label id="2" class="marca cuadro2">o</label></div>
+        <div class="cuadro cuadro3"><label id="3" class="marca cuadro3">x</label></div>
+        <div class="cuadro cuadro4"><label id="4" class="marca cuadro4">o</label></div>
+        <div class="cuadro cuadro5"><label id="5" class="marca cuadro5">x</label></div>
+        <div class="cuadro cuadro6"><label id="6" class="marca cuadro6">x</label></div>
+        <div class="cuadro cuadro7"><label id="7" class="marca cuadro7">o</label></div>
+        <div class="cuadro cuadro8"><label id="8" class="marca cuadro8">x</label></div>
+        <div class="cuadro cuadro9"><label id="9" class="marca cuadro9">o</label></div>
+    </div>
+
+    <dialog open="true" id="menu" class="start">
+        <h2 class="title">Dale Play para empezar a jugar</h2>
+    
+        <div class="boton__play">
+            <button id="play">Play</button>
+
+            <div id="dificulted">
+                <button id="easy" class="play"> Facil</button>
+                <button id="medium" class="play"> Medio</button>
+                <button id="hard" class="play"> Dificil</button>
+            </div> 
+        </div>
+        
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>

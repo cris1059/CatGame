@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.titulo{
+    height: 50px;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.tablero{
+    background-color: rgb(56, 56, 56);
+    box-sizing: content-box;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 7px;
+}
+
+.cuadro{
+    background-color: #999;
+    box-sizing: border-box;
+    flex: 1 1 1px;
+    min-width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px #000;
+}
+
+.cuadro1{
+    border-top-left-radius: 7px;
+}
+
+.cuadro3{
+    border-top-right-radius: 7px;
+}
+
+.cuadro7{
+    border-bottom-left-radius: 7px;
+}
+
+.cuadro9{
+    border-bottom-right-radius: 7px;
+}
+
+.marca{
+    margin: auto;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.start{
+    background-color: #0007;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    margin-right: 55px;
+    margin-top: 50px;
+}
+
+.boton__play{
+
+    display: block;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.boton__play button{
+    
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color:#000;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+}
+
+.marco{
+    position: relative;
+    font-size: 4rem;
+    color: #fff;
+}
